@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bourbon', '~> 5.1'
 gem 'clearance', '~> 1.16', '>= 1.16.1'
+gem 'twilio-ruby', '~> 5.17'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
