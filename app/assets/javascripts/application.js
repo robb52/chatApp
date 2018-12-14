@@ -15,10 +15,11 @@
 //= require turbolinks
 //= require_tree .
 
-Rails.ajax({
-  url: "/tokens",
-  type: "POST",
-  success: function(data) {
-    console.log(data);
+document.addEventListener("DOMContentLoaded", () => {
+  if (document.querySelector(".chat")) {
+    window.chat = new Chat();
   }
 });
+        
+            
+       
